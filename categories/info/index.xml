@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Info on Combinant</title>
+    <link>https://www.combinant.be/categories/info/index.xml</link>
+    <description>Recent content in Info on Combinant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-be</language>
+    <atom:link href="https://www.combinant.be/categories/info/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Combinant stelt zich voor</title>
+      <link>https://www.combinant.be/2017/combinant-stelt-zich-voor</link>
+      <pubDate>Mon, 06 Mar 2017 08:55:50 +0100</pubDate>
+      
+      <guid>https://www.combinant.be/2017/combinant-stelt-zich-voor</guid>
+      <description>&lt;p&gt;Op 10 maart 2009 stelde Combinant zichzelf voor met een persconferentie...&lt;/p&gt;
+&lt;p&gt;EMBED SLIDESHARE PRESENTATION&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
