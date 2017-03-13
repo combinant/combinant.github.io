@@ -43,3 +43,18 @@
 .content {
     padding: 28px;
 }
+
+.contact {
+    margin-bottom: 20px;
+    margin-right: 20px
+}
+
+.vcard {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 375px) {
+    .contact--hide-small {
+        display: none !important;
+    }
+}
