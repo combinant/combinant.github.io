@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-orange.min.css"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-indigo.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="css/ie7.css">
@@ -63,8 +63,51 @@
     </div>
     <main id="layoutMain" class="mdl-layout__content">
         <div class="page-content">
-<p>Home</p>
-
+<div class="mdl-grid" style="position: relative">
+    <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+    <div class="mdl-color--white home content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+        <div style="background-color: green; height: 250px" class="home-vspace mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+</div>
+<div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col">
+    <div class="mdl-card__title">
+        <h3 class="mdl-card__title-text">Recent nieuws</h3>
+    </div>
+    <div class="mdl-card__supporting-text">
+        <table class="wide mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+            <tbody>
+            <tr>
+                <td class="mdl-data-table__cell--non-numeric"><strong>Moeilijke bereikbaarheid door fietsbrug 1234
+                    12345678 1234</strong><br/>16/02/2016
+                </td>
+            </tr>
+            <tr>
+                <td class="mdl-data-table__cell--non-numeric"><strong>Nieuwe kraan in gebruik genomen</strong><br/>09/09/2014
+                </td>
+            </tr>
+            <tr>
+                <td class="mdl-data-table__cell--non-numeric"><strong>Combinant op ATV</strong><br/>23/03/2014</td>
+            </tr>
+            <tr>
+                <td class="mdl-data-table__cell--non-numeric"><strong>Nieuw treintraject Antwerpen -
+                    Moskou</strong><br/>16/09/2012
+                </td>
+            </tr>
+            <tr>
+                <td onclick="window.document.location='/2017/combinant-stelt-zich-voor';" class="table-link mdl-data-table__cell--non-numeric"><strong>Combinant stelt zich voor</strong><br/>12/03/2010
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="mdl-card__actions mdl-card--border">
+        <a href="/nieuws" target="_self"
+           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent btnBook"
+           data-upgraded=",MaterialButton,MaterialRipple">Bekijk all het nieuws<span
+                class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></a>
+    </div>
+</div>
+    </div>
+</div>
 <footer id="layoutFooter" class="mdl-mini-footer" style="visibility: hidden;">
     <div class="mdl-mini-footer__left-section">
         <div class="mdl-logo mdl-layout--large-screen-only footer-logo"><span class="combinant-icons-logo"></span></div>

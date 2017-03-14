@@ -49,6 +49,10 @@
     margin-right: 20px
 }
 
+.home-vspace {
+    margin-bottom: 20px;
+}
+
 .vcard {
     margin-bottom: 20px;
 }
@@ -57,4 +61,21 @@
     .contact--hide-small {
         display: none !important;
     }
+}
+
+.mdl-data-table__cell--non-numeric {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.home {
+    padding: 0px;
+}
+
+.table-link {
+    cursor:pointer;
+}
+
+.wide {
+    width: 100%;
 }
