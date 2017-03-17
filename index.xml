@@ -113,7 +113,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       
       <guid>https://www.combinant.be/home/</guid>
       <description>&lt;div class=&#34;mdl-grid&#34;&gt;
-    &lt;div style=&#34;background-color: green; height: 250px;&#34;
+    &lt;div style=&#34;height: 250px; background-image: url(&#39;/assets/combinant-home.jpg&#39;); background-position: right;&#34;
          class=&#34;mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col&#34;&gt;
     &lt;/div&gt;
 
