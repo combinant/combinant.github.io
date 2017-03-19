@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combinant</title>
-    <link>https://www.combinant.be/index.xml</link>
+    <link>https://combinant.github.io/index.xml</link>
     <description>Recent content on Combinant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-be</language>
     <lastBuildDate>Fri, 03 Mar 2017 16:28:47 +0100</lastBuildDate>
-    <atom:link href="https://www.combinant.be/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://combinant.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contact</title>
-      <link>https://www.combinant.be/contact/</link>
+      <link>https://combinant.github.io/contact/</link>
       <pubDate>Fri, 03 Mar 2017 16:28:47 +0100</pubDate>
       
-      <guid>https://www.combinant.be/contact/</guid>
+      <guid>https://combinant.github.io/contact/</guid>
       <description>&lt;div class=&#34;mdl-grid&#34;&gt;
     &lt;div class=&#34;contact&#34;&gt;
         &lt;table class=&#34;mdl-data-table mdl-shadow--2dp&#34;&gt;
@@ -45,9 +45,9 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
     &lt;/div&gt;
     &lt;div class=&#34;mdl-layout-spacer mdl-cell--hide-phone&#34;&gt;&lt;/div&gt;
     &lt;div  class=&#34;vcard&#34;&gt;
-        &lt;a href=&#34;https://www.combinant.be/assets/combinant-vcard.vcf&#34;&gt;
-            &lt;img width=&#34;180&#34; class=&#34;mdl-cell--hide-phone&#34; src=&#34;https://www.combinant.be/assets/combinant-vcard-qrcode.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
-            &lt;img width=&#34;100&#34; class=&#34;mdl-cell--hide-desktop mdl-cell--hide-tablet&#34; src=&#34;https://www.combinant.be/assets/vcard.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
+        &lt;a href=&#34;https://combinant.github.io/assets/combinant-vcard.vcf&#34;&gt;
+            &lt;img width=&#34;180&#34; class=&#34;mdl-cell--hide-phone&#34; src=&#34;https://combinant.github.io/assets/combinant-vcard-qrcode.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
+            &lt;img width=&#34;100&#34; class=&#34;mdl-cell--hide-desktop mdl-cell--hide-tablet&#34; src=&#34;https://combinant.github.io/assets/vcard.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
         &lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -58,60 +58,60 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
     
     <item>
       <title>Twitter</title>
-      <link>https://www.combinant.be/twitter/</link>
+      <link>https://combinant.github.io/twitter/</link>
       <pubDate>Fri, 03 Mar 2017 16:28:42 +0100</pubDate>
       
-      <guid>https://www.combinant.be/twitter/</guid>
+      <guid>https://combinant.github.io/twitter/</guid>
       <description>&lt;a class=&#34;twitter-timeline&#34; href=&#34;https://twitter.com/Combinant&#34;&gt;Tweets by Combinant&lt;/a&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
     </item>
     
     <item>
       <title>Nieuws</title>
-      <link>https://www.combinant.be/nieuws/</link>
+      <link>https://combinant.github.io/nieuws/</link>
       <pubDate>Fri, 03 Mar 2017 16:28:37 +0100</pubDate>
       
-      <guid>https://www.combinant.be/nieuws/</guid>
+      <guid>https://combinant.github.io/nieuws/</guid>
       <description>&lt;p&gt;Nieuws&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Cetis</title>
-      <link>https://www.combinant.be/cetis/</link>
+      <link>https://combinant.github.io/cetis/</link>
       <pubDate>Fri, 03 Mar 2017 16:28:32 +0100</pubDate>
       
-      <guid>https://www.combinant.be/cetis/</guid>
+      <guid>https://combinant.github.io/cetis/</guid>
       <description>&lt;p&gt;Cetis&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Treinnetwerk</title>
-      <link>https://www.combinant.be/treinnetwerk/</link>
+      <link>https://combinant.github.io/treinnetwerk/</link>
       <pubDate>Fri, 03 Mar 2017 16:28:00 +0100</pubDate>
       
-      <guid>https://www.combinant.be/treinnetwerk/</guid>
+      <guid>https://combinant.github.io/treinnetwerk/</guid>
       <description>&lt;p&gt;&lt;iframe src=&#34;http://www.combinant.be/CombinantMapEmbed.html&#34; style=&#34;width: 100%; height: 720px&#34; scrolling=&#34;auto&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. &#34;Combinant&#34; staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom &#34;Operator&#34;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bedrijfsinfo</title>
-      <link>https://www.combinant.be/bedrijfsinfo/</link>
+      <link>https://combinant.github.io/bedrijfsinfo/</link>
       <pubDate>Fri, 03 Mar 2017 16:27:51 +0100</pubDate>
       
-      <guid>https://www.combinant.be/bedrijfsinfo/</guid>
+      <guid>https://combinant.github.io/bedrijfsinfo/</guid>
       <description>&lt;p&gt;Bedrijfsinfo&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>https://www.combinant.be/home/</link>
+      <link>https://combinant.github.io/home/</link>
       <pubDate>Fri, 03 Mar 2017 16:26:59 +0100</pubDate>
       
-      <guid>https://www.combinant.be/home/</guid>
+      <guid>https://combinant.github.io/home/</guid>
       <description>&lt;div class=&#34;mdl-grid&#34;&gt;
     &lt;div class=&#34;homepic mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col&#34;&gt;&lt;/div&gt;
 
@@ -121,7 +121,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
     &lt;/div&gt;
 
     &lt;div class=&#34;home-trainnetwork-wrapper mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&#34;&gt;
-        &lt;a href=&#34;https://www.combinant.be/treinnetwerk&#34; target=&#34;_self&#34;
+        &lt;a href=&#34;https://combinant.github.io/treinnetwerk&#34; target=&#34;_self&#34;
            class=&#34;home-trainnetwork-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;map&lt;/i&gt;&amp;nbsp;Bekijk ons treinnetwerk&lt;/a&gt;
     &lt;/div&gt;
 
@@ -159,7 +159,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
             &lt;/table&gt;
         &lt;/div&gt;
         &lt;div class=&#34;mdl-card__actions mdl-card--border&#34;&gt;
-            &lt;a href=&#34;https://www.combinant.be/nieuws&#34; target=&#34;_self&#34;
+            &lt;a href=&#34;https://combinant.github.io/nieuws&#34; target=&#34;_self&#34;
                class=&#34;mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent&#34;&gt;Bekijk all het nieuws&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -168,20 +168,20 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
     
     <item>
       <title>Combinant stelt zich voor</title>
-      <link>https://www.combinant.be/2017/combinant-stelt-zich-voor</link>
+      <link>https://combinant.github.io/2017/combinant-stelt-zich-voor</link>
       <pubDate>Mon, 06 Mar 2017 08:55:50 +0100</pubDate>
       
-      <guid>https://www.combinant.be/2017/combinant-stelt-zich-voor</guid>
+      <guid>https://combinant.github.io/2017/combinant-stelt-zich-voor</guid>
       <description>&lt;p&gt;Op 10 maart 2009 stelde Combinant zichzelf voor met een persconferentie...&lt;/p&gt;
 &lt;span&gt;Slideshare: 123&lt;/span&gt;</description>
     </item>
     
     <item>
       <title>Privacy &amp; voorwaarden</title>
-      <link>https://www.combinant.be/privacy-en-voorwaarden/</link>
+      <link>https://combinant.github.io/privacy-en-voorwaarden/</link>
       <pubDate>Fri, 03 Mar 2017 16:54:11 +0100</pubDate>
       
-      <guid>https://www.combinant.be/privacy-en-voorwaarden/</guid>
+      <guid>https://combinant.github.io/privacy-en-voorwaarden/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Algemeen&lt;/strong&gt; &lt;br&gt;Deze gebruiksvoorwaarden zijn van toepassing op de website &#34;combinant.be&#34;. Deze website is gecreëerd en wordt beheerd door &#34;Combinant&#34;. Door gebruik van deze website verbindt u zich ertoe deze gebruiksvoorwaarden na te leven.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Intellectuele eigendomsrechten&lt;/strong&gt; &lt;br&gt;De teksten, tekeningen, foto&#39;s, films, beelden, data, databanken, software, benamingen, handels- en domeinnamen, merken, logo&#39;s en andere bestanddelen van deze site zijn beschermd door intellectuele rechten en behoren &#34;Combinant&#34; of derden toe. Het is verboden zonder voorafgaand schriftelijk akkoord van &#34;Combinant&#34; de op en via deze website aangeboden informatie op te slaan (anders dan noodzakelijk om de website te kunnen bekijken), te reproduceren, te wijzigen, openbaar te maken, te distribueren of te verzenden, te verkopen of anderszins over te dragen of enige rechten hierop te verlenen aan derden.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Niet-toegestaan gebruik van de website&lt;/strong&gt; &lt;br&gt;U verbindt zich er o.m. toe (1) de informatie niet wederrechtelijk te gebruiken (2) geen zodanig gebruik te maken van de website waardoor de website wordt beschadigd, vervormd, onderbroken, stopgezet of anderszins minder efficient wordt gemaakt, (3) de website niet te gebruiken voor transmissie of posting van computervirussen of voor transmissie of posting van materiaal met een lasterlijk, obsceen of bedreigend karakter (4) de website niet te gebruiken op een dergelijke wijze dat er een inbreuk gepleegd wordt op de rechten van een natuurlijke persoon, rechtspersoon of vereniging, zoals, onder meer doch niet uitsluitend, de rechten van privacy en intellectuele eigendom.&lt;/p&gt;
