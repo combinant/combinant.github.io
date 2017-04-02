@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amusement on Combinant</title>
+    <link>https://combinant.github.io/categories/amusement/index.xml</link>
+    <description>Recent content in Amusement on Combinant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-be</language>
+    <atom:link href="https://combinant.github.io/categories/amusement/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hercules Trophy 2011</title>
+      <link>https://combinant.github.io/2011/hercules-trophy-2011</link>
+      <pubDate>Sun, 19 Jun 2011 14:24:53 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/hercules-trophy-2011</guid>
+      <description>&lt;p&gt;Combinant neemt deel aan de Hercules Trophy 2011.&lt;/p&gt;
+&lt;p&gt;Zie hieronder &#34;the movie&#34;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src=&#34;http://www.youtube.com/embed/xnxuhYkRfa8&#34; width=&#34;640&#34; height=&#34;510&#34; scrolling=&#34;auto&#34; frameborder=&#34;0&#34; allowtransparency=&#34;0&#34;&gt;&lt;/iframe&gt; &lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
