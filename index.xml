@@ -119,58 +119,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:26:59 +0100</pubDate>
       
       <guid>https://combinant.github.io/home/</guid>
-      <description>&lt;div class=&#34;mdl-grid&#34;&gt;
-    &lt;div class=&#34;homepic mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col&#34;&gt;&lt;/div&gt;
-
-    &lt;div style=&#34;text-align: center&#34; class=&#34;mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&#34;&gt;
-        &lt;h6 class=&#34;home-tagline&#34;&gt;Combinant (Combined Terminal Antwerp) is een open access spoorterminal voor intermodaal transport, gelegen
-            in de Antwerpse haven.&lt;/h6&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;home-trainnetwork-wrapper mdl-cell--6-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&#34;&gt;
-        &lt;a href=&#34;https://combinant.github.io/treinnetwerk&#34; target=&#34;_self&#34;
-           class=&#34;home-trainnetwork-button mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;map&lt;/i&gt;&amp;nbsp;Bekijk ons treinnetwerk&lt;/a&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&#34;home-news mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col&#34;&gt;
-        &lt;div class=&#34;mdl-card__title&#34;&gt;
-            &lt;h3 class=&#34;mdl-card__title-text&#34;&gt;Recent nieuws&lt;/h3&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;mdl-card__supporting-text&#34;&gt;
-            &lt;table class=&#34;wide mdl-data-table mdl-js-data-table mdl-shadow--2dp&#34;&gt;
-                &lt;tbody&gt;
-                &lt;tr&gt;
-                    &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Moeilijke bereikbaarheid door fietsbrug 1234
-                        12345678 1234&lt;/strong&gt;&lt;br/&gt;16/02/2016
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Nieuwe kraan in gebruik genomen&lt;/strong&gt;&lt;br/&gt;09/09/2014
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Combinant op ATV&lt;/strong&gt;&lt;br/&gt;23/03/2014&lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Nieuw treintraject Antwerpen -
-                        Moskou&lt;/strong&gt;&lt;br/&gt;16/09/2012
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;tr&gt;
-                    &lt;td onclick=&#34;window.document.location=&#39;/2009/combinant-stelt-zichzelf-voor&#39;;&#34;
-                        class=&#34;table-link mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Combinant stelt zichzelf
-                        voor&lt;/strong&gt;&lt;br/&gt;12/03/2010
-                    &lt;/td&gt;
-                &lt;/tr&gt;
-                &lt;/tbody&gt;
-            &lt;/table&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;mdl-card__actions mdl-card--border&#34;&gt;
-            &lt;a href=&#34;https://combinant.github.io/nieuws&#34; target=&#34;_self&#34;
-               class=&#34;mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--accent&#34;&gt;Bekijk all het nieuws&lt;/a&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</description>
+      <description></description>
     </item>
     
     <item>
