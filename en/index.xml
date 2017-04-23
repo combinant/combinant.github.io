@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Combinant</title>
+    <link>https://combinant.github.io/en/</link>
+    <description>Recent content on Combinant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Mar 2017 16:28:47 +0100</lastBuildDate>
+    
+	<atom:link href="https://combinant.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://combinant.github.io/en/contact/</link>
+      <pubDate>Fri, 03 Mar 2017 16:28:47 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/contact/</guid>
+      <description>location_on Combinant NVScheldelaan 800 - haven 755B-2040 Antwerp   phone +32 3 250 62 62   email info@combinant.be   language http://www.combinant.be/en   access_time Mo-Fr 06:00 - 20:45 Sa 08:00 - 12:00</description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://combinant.github.io/en/twitter/</link>
+      <pubDate>Fri, 03 Mar 2017 16:28:42 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/twitter/</guid>
+      <description> Tweets by Combinant     </description>
+    </item>
+    
+    <item>
+      <title>Nieuws</title>
+      <link>https://combinant.github.io/en/news/</link>
+      <pubDate>Fri, 03 Mar 2017 16:28:37 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/news/</guid>
+      <description>News</description>
+    </item>
+    
+    <item>
+      <title>Cetis</title>
+      <link>https://combinant.github.io/en/cetis/</link>
+      <pubDate>Fri, 03 Mar 2017 16:28:32 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/cetis/</guid>
+      <description>Cetis - en</description>
+    </item>
+    
+    <item>
+      <title>Treinnetwerk</title>
+      <link>https://combinant.github.io/en/trainnetwork/</link>
+      <pubDate>Fri, 03 Mar 2017 16:28:00 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/trainnetwork/</guid>
+      <description>De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. &#34;Combinant&#34; staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom &#34;Operator&#34;.</description>
+    </item>
+    
+    <item>
+      <title>Company info</title>
+      <link>https://combinant.github.io/en/companyinfo/</link>
+      <pubDate>Fri, 03 Mar 2017 16:27:51 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/companyinfo/</guid>
+      <description>Company info</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://combinant.github.io/en/home/</link>
+      <pubDate>Fri, 03 Mar 2017 16:26:59 +0100</pubDate>
+      
+      <guid>https://combinant.github.io/en/home/</guid>
+      <description>Combinant (Combined Terminal Antwerp) is an open access railterminal for intermodal transport, in the harbor of Antwerp.  map&amp;nbsp;Check out our trainnetwork  </description>
+    </item>
+    
+  </channel>
+</rss>

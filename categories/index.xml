@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Combinant</title>
+    <link>https://combinant.github.io/categories/</link>
+    <description>Recent content in Categories on Combinant</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>nl-be</language>
+    <lastBuildDate>Sun, 19 Jun 2011 14:24:53 +0000</lastBuildDate>
+    
+	<atom:link href="https://combinant.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amusement</title>
+      <link>https://combinant.github.io/categories/amusement/</link>
+      <pubDate>Sun, 19 Jun 2011 14:24:53 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/categories/amusement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Info</title>
+      <link>https://combinant.github.io/categories/info/</link>
+      <pubDate>Mon, 19 Dec 2016 14:05:56 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/categories/info/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pers</title>
+      <link>https://combinant.github.io/categories/pers/</link>
+      <pubDate>Wed, 13 May 2015 05:50:39 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/categories/pers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Treintraject</title>
+      <link>https://combinant.github.io/categories/treintraject/</link>
+      <pubDate>Thu, 25 Jun 2015 06:05:24 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/categories/treintraject/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Video</title>
+      <link>https://combinant.github.io/categories/video/</link>
+      <pubDate>Thu, 12 Mar 2015 07:28:20 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/categories/video/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

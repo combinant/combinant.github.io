@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://combinant.github.io/en/contact/</loc>
+    <lastmod>2017-03-03T16:28:47+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/twitter/</loc>
+    <lastmod>2017-03-03T16:28:42+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/news/</loc>
+    <lastmod>2017-03-03T16:28:37+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/cetis/</loc>
+    <lastmod>2017-03-03T16:28:32+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/trainnetwork/</loc>
+    <lastmod>2017-03-03T16:28:00+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/companyinfo/</loc>
+    <lastmod>2017-03-03T16:27:51+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/home/</loc>
+    <lastmod>2017-03-03T16:26:59+01:00</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://combinant.github.io/en/</loc>
+    <lastmod>2017-03-03T16:28:47+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

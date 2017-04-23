@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Combinant</title>
-    <link>https://combinant.github.io/index.xml</link>
+    <link>https://combinant.github.io/</link>
     <description>Recent content on Combinant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl-be</language>
     <lastBuildDate>Fri, 03 Mar 2017 16:28:47 +0100</lastBuildDate>
-    <atom:link href="https://combinant.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://combinant.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Contact</title>
@@ -15,45 +17,7 @@
       <pubDate>Fri, 03 Mar 2017 16:28:47 +0100</pubDate>
       
       <guid>https://combinant.github.io/contact/</guid>
-      <description>&lt;div class=&#34;mdl-grid&#34;&gt;
-    &lt;div class=&#34;contact&#34;&gt;
-        &lt;table class=&#34;mdl-data-table mdl-shadow--2dp&#34;&gt;
-            &lt;tbody&gt;
-            &lt;tr&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric contact--hide-small&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;location_on&lt;/i&gt;&lt;/td&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;strong&gt;Combinant NV&lt;/strong&gt;&lt;br/&gt;Scheldelaan 800 - haven 755&lt;br/&gt;B-2040 Antwerpen&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric contact--hide-small&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;phone&lt;/i&gt;&lt;/td&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;+32 3 250 62 62&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric contact--hide-small&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;email&lt;/i&gt;&lt;/td&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;a href=&#34;mailto:info@combinant.be&#34;&gt;info@combinant.be&lt;/a&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric contact--hide-small&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;language&lt;/i&gt;&lt;/td&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;a href=&#34;http://www.combinant.be&#34;&gt;http://www.combinant.be&lt;/a&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric contact--hide-small&#34;&gt;&lt;i class=&#34;material-icons&#34;&gt;access_time&lt;/i&gt;&lt;/td&gt;
-                &lt;td class=&#34;mdl-data-table__cell--non-numeric&#34;&gt;&lt;pre&gt;Ma-Vr  06:00 - 20:45
-Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;/tbody&gt;
-        &lt;/table&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;mdl-layout-spacer mdl-cell--hide-phone&#34;&gt;&lt;/div&gt;
-    &lt;div  class=&#34;vcard&#34;&gt;
-        &lt;a href=&#34;https://combinant.github.io/assets/combinant-vcard.vcf&#34;&gt;
-            &lt;img width=&#34;180&#34; class=&#34;mdl-cell--hide-phone&#34; src=&#34;https://combinant.github.io/assets/combinant-vcard-qrcode.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
-            &lt;img width=&#34;100&#34; class=&#34;mdl-cell--hide-desktop mdl-cell--hide-tablet&#34; src=&#34;https://combinant.github.io/assets/vcard.png&#34; alt=&#34;Combinant - vCard&#34;/&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;iframe src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=nl&amp;amp;geocode=&amp;amp;q=combinant,+antwerpen&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=34.999041,86.220703&amp;amp;ie=UTF8&amp;amp;hq=combinant,&amp;amp;hnear=Antwerpen,+Belgi%C3%AB&amp;amp;ll=51.489079,4.356079&amp;amp;spn=0.409274,1.347198&amp;amp;z=10&amp;amp;iwloc=A&amp;amp;cid=10134849359270201842&amp;amp;output=embed&#34; height=&#34;450&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowtransparency=&#34;65535&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;https://www.meteo.be/services/widget/.?postcode=2000&amp;amp;nbDay=2&amp;amp;type=3&amp;amp;lang=nl&amp;amp;bgImageId=14&amp;amp;bgColor=567cd2&amp;amp;scrolChoice=0&amp;amp;colorTempMax=A5D6FF&amp;amp;colorTempMin=ffffff&#34; height=&#34;200&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <description>location_on Combinant NVScheldelaan 800 - haven 755B-2040 Antwerpen   phone +32 3 250 62 62   email info@combinant.be   language http://www.combinant.be   access_time Ma-Vr 06:00 - 20:45 Za 08:00 - 12:00</description>
     </item>
     
     <item>
@@ -62,15 +26,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:28:42 +0100</pubDate>
       
       <guid>https://combinant.github.io/twitter/</guid>
-      <description>&lt;div class=&#34;mdl-grid&#34;&gt;
-    &lt;div class=&#34;mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone&#34;&gt;&lt;/div&gt;
-    &lt;div class=&#34;mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone&#34;&gt;
-        &lt;a class=&#34;twitter-timeline&#34; href=&#34;https://twitter.com/Combinant&#34;&gt;Tweets by Combinant&lt;/a&gt;
-        &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone&#34;&gt;&lt;/div&gt;
-&lt;/div&gt;
-</description>
+      <description> Tweets door Combinant     </description>
     </item>
     
     <item>
@@ -79,8 +35,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:28:37 +0100</pubDate>
       
       <guid>https://combinant.github.io/nieuws/</guid>
-      <description>&lt;p&gt;Nieuws&lt;/p&gt;
-</description>
+      <description>Nieuws</description>
     </item>
     
     <item>
@@ -89,8 +44,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:28:32 +0100</pubDate>
       
       <guid>https://combinant.github.io/cetis/</guid>
-      <description>&lt;p&gt;Cetis&lt;/p&gt;
-</description>
+      <description>Cetis</description>
     </item>
     
     <item>
@@ -99,8 +53,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:28:00 +0100</pubDate>
       
       <guid>https://combinant.github.io/treinnetwerk/</guid>
-      <description>&lt;p&gt;&lt;iframe src=&#34;http://www.combinant.be/CombinantMapEmbed.html&#34; style=&#34;width: 100%; height: 720px&#34; scrolling=&#34;auto&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. &#34;Combinant&#34; staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom &#34;Operator&#34;.&lt;/p&gt;</description>
+      <description>De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. &#34;Combinant&#34; staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom &#34;Operator&#34;.</description>
     </item>
     
     <item>
@@ -109,8 +62,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:27:51 +0100</pubDate>
       
       <guid>https://combinant.github.io/bedrijfsinfo/</guid>
-      <description>&lt;p&gt;Bedrijfsinfo&lt;/p&gt;
-</description>
+      <description>Bedrijfsinfo</description>
     </item>
     
     <item>
@@ -119,7 +71,7 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:26:59 +0100</pubDate>
       
       <guid>https://combinant.github.io/home/</guid>
-      <description></description>
+      <description>Combinant (Combined Terminal Antwerp) is een open access spoorterminal voor intermodaal transport, gelegen in de Antwerpse haven.  map&amp;nbsp;Bekijk ons treinnetwerk  </description>
     </item>
     
     <item>
@@ -128,102 +80,473 @@ Za     08:00 - 12:00&lt;/pre&gt;&lt;/td&gt;
       <pubDate>Fri, 03 Mar 2017 16:54:11 +0100</pubDate>
       
       <guid>https://combinant.github.io/privacy-en-voorwaarden/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Algemeen&lt;/strong&gt; &lt;br&gt;Deze gebruiksvoorwaarden zijn van toepassing op de website &#34;combinant.be&#34;. Deze website is gecreëerd en wordt beheerd door &#34;Combinant&#34;. Door gebruik van deze website verbindt u zich ertoe deze gebruiksvoorwaarden na te leven.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Intellectuele eigendomsrechten&lt;/strong&gt; &lt;br&gt;De teksten, tekeningen, foto&#39;s, films, beelden, data, databanken, software, benamingen, handels- en domeinnamen, merken, logo&#39;s en andere bestanddelen van deze site zijn beschermd door intellectuele rechten en behoren &#34;Combinant&#34; of derden toe. Het is verboden zonder voorafgaand schriftelijk akkoord van &#34;Combinant&#34; de op en via deze website aangeboden informatie op te slaan (anders dan noodzakelijk om de website te kunnen bekijken), te reproduceren, te wijzigen, openbaar te maken, te distribueren of te verzenden, te verkopen of anderszins over te dragen of enige rechten hierop te verlenen aan derden.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Niet-toegestaan gebruik van de website&lt;/strong&gt; &lt;br&gt;U verbindt zich er o.m. toe (1) de informatie niet wederrechtelijk te gebruiken (2) geen zodanig gebruik te maken van de website waardoor de website wordt beschadigd, vervormd, onderbroken, stopgezet of anderszins minder efficient wordt gemaakt, (3) de website niet te gebruiken voor transmissie of posting van computervirussen of voor transmissie of posting van materiaal met een lasterlijk, obsceen of bedreigend karakter (4) de website niet te gebruiken op een dergelijke wijze dat er een inbreuk gepleegd wordt op de rechten van een natuurlijke persoon, rechtspersoon of vereniging, zoals, onder meer doch niet uitsluitend, de rechten van privacy en intellectuele eigendom.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Persoonsgegevens&lt;/strong&gt; &lt;br&gt;&#34;Combinant&#34; verzamelt geen persoonsgegevens tenzij deze op vrijwillige basis worden verstrekt. Met het invullen en versturen van een formulier, of het verzenden van een e-mail geeft een bezoeker &#34;Combinant&#34; toestemming zijn of haar persoonlijke gegevens op te slaan in een bestand van &#34;Combinant&#34; met het oog op een geautomatiseerde gebruikersprofilering, klantenbeheer, marktonderzoek en direct marketing. U heeft recht op inzage en eventuele correctie van uw desbetreffende persoonsgegevens. U heeft het recht om u kosteloos te verzetten tegen verwerking van uw gegevens voor direct marketing doeleinden. U kunt uw aanvraag tot inzage, correctie of verzet richten tot webmaster@combinant.be.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Automatisch vergaarde niet-persoonlijke informatie&lt;/strong&gt; &lt;br&gt;&#34;Combinant&#34; kan gegevens verzamelen van niet-persoonlijke aard, zoals browser type of IP adres, het besturingsprogramma dat u gebruikt of de domeinnaam van de website langs waar u naar de &#34;Combinant&#34; website gekomen bent of waarlangs u die verlaat.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Cookies&lt;/strong&gt; &lt;br&gt;Tijdens een bezoek aan de site kunnen automatisch zogenaamde &#39;cookies&#39; op de harde schijf van uw computer geplaatst worden. Deze gegevens helpen ons de site beter af te stemmen op de wensen en voorkeuren van de bezoekers. Met de meeste Internet browsers kunt u &#39;cookies&#39; van uw harde schrijf verwijderen, &#39;cookies&#39; afwijzen of een waarschuwing ontvangen vooraleer een &#39;cookie&#39; geïnstalleerd wordt. Raadpleeg de instructies of help-functie van uw Internet browser voor verdere details.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Aansprakelijkheid van &#34;Combinant&#34;:&lt;/strong&gt; &lt;br&gt;&lt;br&gt;&lt;strong&gt;Informatie op de website&lt;/strong&gt; &lt;br&gt;De informatie, software, producten en diensten (&#34;informatie&#34;) die op of via deze website worden aangeboden, kunnen onvolkomenheden van allerlei aard bevatten. &#34;Combinant&#34; staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. &#34;Combinant&#34; is evenmin aansprakelijk voor mogelijke virussen, indien deze ondanks de genomen voorzorgsmaatregelen op de site zouden voorkomen. &#34;Combinant&#34; behoudt zich uitdrukkelijk het recht voor om de informatie op de site op elk tijdstip te wijzigen.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Links naar andere websites&lt;/strong&gt; &lt;br&gt;Deze website kan links naar websites of naar webpagina&#39;s van derden en andere partijen bevatten of daar op een andere manier naar verwijzen. &#34;Combinant&#34; heeft geen zeggenschap over de inhoud of over andere kenmerken van deze websites of webpagina&#39;s en is in geen geval aansprakelijk voor de inhoud of kenmerken ervan. Het plaatsen van links door &#34;Combinant&#34; houdt op geen enkele wijze een impliciete goedkeuring in van de inhoud van deze websites of webpagina&#39;s.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Adviezen via de website&lt;/strong&gt; &lt;br&gt;Indien er via de website rechtstreeks of onrechtstreeks adviezen worden gegeven voor het nemen van medische, juridische, financiële of andere persoonlijke of zakelijke beslissingen, dan worden deze adviezen zonder enige vorm van garantie gegeven en zonder &#34;Combinant&#34; hiervoor aansprakelijk kan gesteld worden. U dient steeds een deskundige ter zake te raadplegen voor bijkomende inlichtingen omtrent het op uw situatie toegespitst advies.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Toepasselijke wetgeving en bevoegde rechtbanken&lt;/strong&gt; &lt;br&gt;De Belgische wetgeving is van toepassing op deze website met uitzondering van de Belgische doorverwijzingsregels uit het Belgisch internationaal privaatrecht. Ingeval van betwistingen zijn enkel de rechtbanken van Antwerpen bevoegd.&lt;/p&gt;
-</description>
+      <description>Algemeen Deze gebruiksvoorwaarden zijn van toepassing op de website &#34;combinant.be&#34;. Deze website is gecreëerd en wordt beheerd door &#34;Combinant&#34;. Door gebruik van deze website verbindt u zich ertoe deze gebruiksvoorwaarden na te leven.
+Intellectuele eigendomsrechten De teksten, tekeningen, foto&#39;s, films, beelden, data, databanken, software, benamingen, handels- en domeinnamen, merken, logo&#39;s en andere bestanddelen van deze site zijn beschermd door intellectuele rechten en behoren &#34;Combinant&#34; of derden toe. Het is verboden zonder voorafgaand schriftelijk akkoord van &#34;</description>
     </item>
     
     <item>
       <title>openingsuren feestdagen 2016- 2017</title>
-      <link>https://combinant.github.io/2016/openingsuren-feestdagen-2016--2017</link>
+      <link>https://combinant.github.io/2016/openingsuren-feestdagen-2016--2017/</link>
       <pubDate>Mon, 19 Dec 2016 14:05:56 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2016/openingsuren-feestdagen-2016--2017</guid>
-      <description>&lt;p&gt;Beste klanten,&lt;/p&gt;
-&lt;p&gt;De terminal zal &lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;gesloten&lt;/span&gt;&lt;/strong&gt; zijn op volgende dagen;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;zaterdag 24 december 2016&lt;br /&gt;&lt;/span&gt;&lt;span&gt;maandag 26 december 2016&lt;br /&gt;&lt;/span&gt;&lt;span&gt;zaterdag 31 december 2016&lt;br /&gt;&lt;/span&gt;&lt;span&gt;maandag 2 januari 2017 &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Alle andere dagen gelden de normale openingsuren.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Alvast prettige feestdagen gewenst van het voltallige Combinant team.&lt;/span&gt;&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2016/openingsuren-feestdagen-2016--2017/</guid>
+      <description>Beste klanten,
+De terminal zal gesloten zijn op volgende dagen;
+zaterdag 24 december 2016
+maandag 26 december 2016
+zaterdag 31 december 2016
+maandag 2 januari 2017 
+Alle andere dagen gelden de normale openingsuren.
+Alvast prettige feestdagen gewenst van het voltallige Combinant team.</description>
     </item>
     
     <item>
       <title>Combinant nv ZOEKT een loketbediende M/V</title>
-      <link>https://combinant.github.io/2015/combinant-nv-zoekt-een-loketbediende-m-v</link>
+      <link>https://combinant.github.io/2015/combinant-nv-zoekt-een-loketbediende-m-v/</link>
       <pubDate>Mon, 14 Dec 2015 12:17:42 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2015/combinant-nv-zoekt-een-loketbediende-m-v</guid>
-      <description>&lt;p&gt;&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/o55eqRXNaYjwMA&#34; width=&#34;668&#34; height=&#34;714&#34; style=&#34;border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34;&gt; &lt;/iframe&gt;&lt;/p&gt;
-&lt;div style=&#34;margin-bottom: 5px;&#34;&gt;&lt;strong&gt; &lt;a title=&#34;Loketbediende M/V&#34; href=&#34;//www.slideshare.net/Combinante/loketbediende-mv&#34; target=&#34;_blank&#34;&gt;Loketbediende M/V&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;//www.slideshare.net/Combinante&#34; target=&#34;_blank&#34;&gt;UIRR&lt;/a&gt;&lt;/strong&gt;&lt;/div&gt;
-</description>
+      <guid>https://combinant.github.io/2015/combinant-nv-zoekt-een-loketbediende-m-v/</guid>
+      <description>
+ Loketbediende M/V  from UIRR </description>
     </item>
     
     <item>
       <title>NIEUW treinconnectie tussen Combinant en Zeebrugge</title>
-      <link>https://combinant.github.io/2015/nieuw-treinconnectie-tussen-combinant-en-zeebrugge</link>
+      <link>https://combinant.github.io/2015/nieuw-treinconnectie-tussen-combinant-en-zeebrugge/</link>
       <pubDate>Thu, 25 Jun 2015 06:05:24 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2015/nieuw-treinconnectie-tussen-combinant-en-zeebrugge</guid>
-      <description>&lt;p&gt;Vanaf 6 juli start Hupac een nieuwe trein op tussen Combinant en Zeebrugge.&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/GMnDJYeJQEUoZq&#34; width=&#34;476&#34; height=&#34;400&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2015/nieuw-treinconnectie-tussen-combinant-en-zeebrugge/</guid>
+      <description>Vanaf 6 juli start Hupac een nieuwe trein op tussen Combinant en Zeebrugge.</description>
     </item>
     
     <item>
       <title>GVA Transport &amp; Logistics</title>
-      <link>https://combinant.github.io/2015/gva-transport--logistics</link>
+      <link>https://combinant.github.io/2015/gva-transport--logistics/</link>
       <pubDate>Wed, 13 May 2015 05:50:39 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2015/gva-transport--logistics</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Artikel in de GVA dd 13/05/2015&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style=&#34;text-decoration: underline;&#34;&gt;Pagina 13&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;//e.issuu.com/embed.html#0/12832829&#34; width=&#34;650&#34; height=&#34;456&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2015/gva-transport--logistics/</guid>
+      <description>Artikel in de GVA dd 13/05/2015
+Pagina 13</description>
     </item>
     
     <item>
       <title>instructies voor chauffeurs</title>
-      <link>https://combinant.github.io/2015/instructies-voor-chauffeurs</link>
+      <link>https://combinant.github.io/2015/instructies-voor-chauffeurs/</link>
       <pubDate>Thu, 12 Mar 2015 07:28:20 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2015/instructies-voor-chauffeurs</guid>
-      <description>&lt;p&gt;Beste,&lt;/p&gt;
-&lt;p&gt;Hieronder vidnen jullie een instructiefilm voor alle chauffeurs die Combinant bezoeken.&lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;https://www.youtube.com/embed/MJFHeRZca84&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2015/instructies-voor-chauffeurs/</guid>
+      <description>Beste,
+Hieronder vidnen jullie een instructiefilm voor alle chauffeurs die Combinant bezoeken.</description>
     </item>
     
     <item>
       <title>nieuw behandelingstoestel op Combinant</title>
-      <link>https://combinant.github.io/2015/nieuw-behandelingstoestel-op-combinant</link>
+      <link>https://combinant.github.io/2015/nieuw-behandelingstoestel-op-combinant/</link>
       <pubDate>Mon, 19 Jan 2015 11:59:27 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2015/nieuw-behandelingstoestel-op-combinant</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;line-height: 1.5em;&#34;&gt;Beste allen,&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Vanaf heden heeft Combinant een reachstacker ter beschikking die ingezet zal worden op haar nieuw terrein van 12000m2.&lt;/p&gt;
-&lt;p&gt;HIerdoor ontstaan er nieuwe mogelijkheden op Combinant. Voor info, neem contact op met Ben Beirnaert (ben.beirnaert@combinant.be)&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;vertical-align: bottom;&#34; src=&#34;https://combinant.github.io/Data/Sites/1/media/1stacker.jpg&#34; alt=&#34;reachtstacker&#34; width=&#34;550&#34; height=&#34;412&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2015/nieuw-behandelingstoestel-op-combinant/</guid>
+      <description>Beste allen,
+Vanaf heden heeft Combinant een reachstacker ter beschikking die ingezet zal worden op haar nieuw terrein van 12000m2.
+HIerdoor ontstaan er nieuwe mogelijkheden op Combinant. Voor info, neem contact op met Ben Beirnaert (ben.beirnaert@combinant.be)</description>
     </item>
     
     <item>
       <title>Filmpje op Combinant naar aanleiding opening Liefkenshoek spoor tunnel</title>
-      <link>https://combinant.github.io/2014/filmpje-op-combinant-naar-aanleiding-opening-liefkenshoek-spoor-tunnel</link>
+      <link>https://combinant.github.io/2014/filmpje-op-combinant-naar-aanleiding-opening-liefkenshoek-spoor-tunnel/</link>
       <pubDate>Wed, 10 Dec 2014 09:04:33 +0000</pubDate>
       
-      <guid>https://combinant.github.io/2014/filmpje-op-combinant-naar-aanleiding-opening-liefkenshoek-spoor-tunnel</guid>
-      <description>&lt;p&gt;Beste,&lt;/p&gt;
-&lt;p&gt;In het kader van de opening van de Liefkenshoek spoor tunnel heeft Infrabel wat beelden komen maken op Combinant.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;iframe src=&#34;//www.youtube.com/embed/0Qd_NYtLGJc&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;Met dank aan Infrabel,&lt;/p&gt;
-&lt;p&gt;Combinant nv&lt;/p&gt;
-</description>
+      <guid>https://combinant.github.io/2014/filmpje-op-combinant-naar-aanleiding-opening-liefkenshoek-spoor-tunnel/</guid>
+      <description>Beste,
+In het kader van de opening van de Liefkenshoek spoor tunnel heeft Infrabel wat beelden komen maken op Combinant.
+ 
+Met dank aan Infrabel,
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>4de roundtrip voor Verona trein</title>
+      <link>https://combinant.github.io/2013/4de-roundtrip-voor-verona-trein/</link>
+      <pubDate>Mon, 03 Jun 2013 10:01:40 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2013/4de-roundtrip-voor-verona-trein/</guid>
+      <description>Beste klanten,
+Vanaf 4 juni 2013 zal de Verona trein 4x per week vertrekken vanaf Combinant.
+Voor verdere vragen en/of inlichtingen aarzel niet om Hupac en/of Cemat te contacteren.
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>Beste wensen van Combinant nv</title>
+      <link>https://combinant.github.io/2012/beste-wensen-van-combinant-nv/</link>
+      <pubDate>Fri, 21 Dec 2012 12:57:07 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/beste-wensen-van-combinant-nv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uurregeling einde jaar</title>
+      <link>https://combinant.github.io/2012/uurregeling-einde-jaar/</link>
+      <pubDate>Mon, 05 Nov 2012 11:52:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/uurregeling-einde-jaar/</guid>
+      <description>Beste allen,
+De terminal zal open zijn op volgende dagen;
+zaterdag 22 december 2012 tussen 08u00 en 12u00
+zaterdag 29 december 2012 tussen 08u00 en 12u00
+maandag 24 december 2012 tussen 06u00 en 13u30
+maandag 31 december 2012 tussen 06u00 en 13u30
+De terminal zal gesloten zijn op volgende dagen;
+dinsdag 25 december 2012
+dinsdag 01 januari 2012
+Alle andere dagen zal de terminal normaal geopend zijn.
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>Flyer Combinant</title>
+      <link>https://combinant.github.io/2012/flyer-combinant/</link>
+      <pubDate>Mon, 22 Oct 2012 10:17:55 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/flyer-combinant/</guid>
+      <description>Hieronder een flyer waarop jullie alle info over Combinant kunnen vinden.</description>
+    </item>
+    
+    <item>
+      <title>Combinant op ATV - 24 uur in de Haven</title>
+      <link>https://combinant.github.io/2012/combinant-op-atv---24-uur-in-de-haven/</link>
+      <pubDate>Mon, 22 Oct 2012 06:41:10 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/combinant-op-atv---24-uur-in-de-haven/</guid>
+      <description>In deze eerste aflevering varen we mee met de sleepboot de Union Hawk waar een kapitein in opleiding mee aan boord is. Verder wordt het bunkeringschip de Antverpia gedoopt. Dat is een traditie in de haven, het brengt geluk aan de bemanning van het schip. We volgen ook de activiteiten op de treinterminal Combinant.</description>
+    </item>
+    
+    <item>
+      <title>Eerste trailers richting UK</title>
+      <link>https://combinant.github.io/2012/eerste-trailers-richting-uk/</link>
+      <pubDate>Thu, 07 Jun 2012 07:57:12 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/eerste-trailers-richting-uk/</guid>
+      <description>Combinant heeft op 21 mei 2012 de eerste trailers geladen die door de Tunnel zijn gereden met bestemming Londen.
+Bekijk hieronder het artikel in de LLoyd.
+De lloyd trailers uk dd 20120529  View more presentations from Combinant  </description>
+    </item>
+    
+    <item>
+      <title>Algemene staking in België op maandag 30 januari 2012</title>
+      <link>https://combinant.github.io/2012/algemene-staking-in-belgi%C3%AB-op-maandag-30-januari-2012/</link>
+      <pubDate>Thu, 26 Jan 2012 07:33:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/algemene-staking-in-belgi%C3%AB-op-maandag-30-januari-2012/</guid>
+      <description>Best allen,
+Wij zijn op de hoogte gebracht dat ook de havenarbeiders zullen deelnemen aan de algemene staking van maandag.
+Aangezien deze staking massaal opgevolgt zal worden, hebben wij geen andere mogelijkheid dan de terminal te sluiten komende maandag.
+Wij hopen op uw begrip in deze.
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>Staking in België</title>
+      <link>https://combinant.github.io/2012/staking-in-belgi%C3%AB/</link>
+      <pubDate>Tue, 24 Jan 2012 10:50:44 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2012/staking-in-belgi%C3%AB/</guid>
+      <description>Beste allen,
+Op maandag 30 januari 2012 is er een algemene staking aangekondigd in België.
+De impakt die dit zal hebben op Combinant kunnen wij voorlopig niet inschatten.
+Van zodra wij meer informatie bekomen brengen wij jullie op de hoogte.
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>Combinant gaat twitter</title>
+      <link>https://combinant.github.io/2011/combinant-gaat-twitter/</link>
+      <pubDate>Tue, 20 Dec 2011 19:10:59 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/combinant-gaat-twitter/</guid>
+      <description>Beste allen,
+Vanaf heden is combinant te volgen op Twitter.
+Groetjes,
+Combinant nv
+@combinant
+KLIK HIER om ons direct te volgen.</description>
+    </item>
+    
+    <item>
+      <title>openingsuren eind 2011</title>
+      <link>https://combinant.github.io/2011/openingsuren-eind-2011/</link>
+      <pubDate>Tue, 13 Dec 2011 13:55:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/openingsuren-eind-2011/</guid>
+      <description>Beste klanten,
+De terminal zal gesloten zijn op volgende data ;
+Zaterdag 24 december 2011
+Maandag 26 december 2011
+Zaterdag 31 december 2011
+De terminal zal open zijn op maandag 2 januari 2012 tussen 08u00 en 15u00.
+Met vriendelijke groeten,
+Combinant nv</description>
+    </item>
+    
+    <item>
+      <title>nieuw treintraject Antwerpen - Barcelona</title>
+      <link>https://combinant.github.io/2011/nieuw-treintraject-antwerpen---barcelona/</link>
+      <pubDate>Tue, 13 Dec 2011 13:47:44 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/nieuw-treintraject-antwerpen---barcelona/</guid>
+      <description>Beste klanten,
+Vanaf heden is er een rechtstreeks vertrek vanuit Combinant naar Barcelona.
+Zie info hieronder.
+Combinant nv
+Flyer antwerp barcelona  View more documents from Combinant.  </description>
+    </item>
+    
+    <item>
+      <title>Eerste volle trein tussen China en Combinant</title>
+      <link>https://combinant.github.io/2011/eerste-volle-trein-tussen-china-en-combinant/</link>
+      <pubDate>Wed, 26 Oct 2011 19:07:35 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/eerste-volle-trein-tussen-china-en-combinant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BEREIKBAARHEID COMBINANT</title>
+      <link>https://combinant.github.io/2011/bereikbaarheid-combinant/</link>
+      <pubDate>Wed, 28 Sep 2011 16:03:49 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/bereikbaarheid-combinant/</guid>
+      <description>Antwerpen: Scheldelaan (N101) krijgt nieuwe asfaltverharding Posted in Persberichten, Antwerpen
+ Het Agentschap Wegen en Verkeer start op maandag 3 oktober met asfalteringswerken op de N101 Scheldelaan in Zandvliet (Antwerpen). Het huidige wegdek vanaf de Noordlandbrug tot de Antwerpsebaan is in slechte staat en aan vervanging toe.   De ingreep aan de Scheldelaan start maandagochtend 3 oktober om 6 uur. Tot vrijdagavond 14 oktober neemt het agentschap het wegdek onder handen tussen de Antwerpsebaan en de Noordlandbrug.</description>
+    </item>
+    
+    <item>
+      <title>Hercules Trophy 2011</title>
+      <link>https://combinant.github.io/2011/hercules-trophy-2011/</link>
+      <pubDate>Sun, 19 Jun 2011 14:24:53 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/hercules-trophy-2011/</guid>
+      <description>Combinant neemt deel aan de Hercules Trophy 2011.
+Zie hieronder &#34;the movie&#34;
+ </description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Dourges</title>
+      <link>https://combinant.github.io/2011/nieuw-treintraject-antwerpen---dourges/</link>
+      <pubDate>Mon, 07 Mar 2011 07:18:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/nieuw-treintraject-antwerpen---dourges/</guid>
+      <description>Vanaf maandag 07 maart is er een nieuwe trein van Naviland opgestart richting Dourges met vandaar connecties binnen Frankrijk.
+ Naviland flyer  View more presentations from Combinant.</description>
+    </item>
+    
+    <item>
+      <title>Hoe de CETIS website te gebruiken.</title>
+      <link>https://combinant.github.io/2011/hoe-de-cetis-website-te-gebruiken./</link>
+      <pubDate>Sun, 13 Feb 2011 17:12:16 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/hoe-de-cetis-website-te-gebruiken./</guid>
+      <description>Use of cetis 2 0  View more documents from Combinant.  </description>
+    </item>
+    
+    <item>
+      <title>Flash info van Hupac mbt Trein Hendaye</title>
+      <link>https://combinant.github.io/2011/flash-info-van-hupac-mbt-trein-hendaye/</link>
+      <pubDate>Wed, 05 Jan 2011 13:06:46 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2011/flash-info-van-hupac-mbt-trein-hendaye/</guid>
+      <description>Mail van Hupac mbt trein Hendaye&amp;gt;
+ Mail hupac concering Hendaye  View more documents from Combinant.</description>
+    </item>
+    
+    <item>
+      <title>Uitbreiding treintraject Antwerpen - Ludwigshafen</title>
+      <link>https://combinant.github.io/2010/uitbreiding-treintraject-antwerpen---ludwigshafen/</link>
+      <pubDate>Thu, 30 Sep 2010 07:28:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/uitbreiding-treintraject-antwerpen---ludwigshafen/</guid>
+      <description>Combinant start vanaf 1 oktober 2010 met 5 roundtrips per week richting Ludwigshafen.
+Meer informatie in de brochure...
+ Flyer antwerp ludwigshafen 9-2010  View more documents from Combinant.</description>
+    </item>
+    
+    <item>
+      <title>Eerste trein vertrek naar Novara</title>
+      <link>https://combinant.github.io/2010/eerste-trein-vertrek-naar-novara/</link>
+      <pubDate>Thu, 17 Jun 2010 17:40:57 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/eerste-trein-vertrek-naar-novara/</guid>
+      <description>Op woensdag 14 juni vertrok vanop Combinant de eerste trein richting Novara met een volledige bezetting van Ewals Cargo Care.
+  </description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Bazel - Novara</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---bazel---novara/</link>
+      <pubDate>Wed, 16 Jun 2010 12:52:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---bazel---novara/</guid>
+      <description>Vanaf maandag 14 juni is er een nieuwe trein opgestart richting Novara en Bazel.
+ Train towards Novara</description>
+    </item>
+    
+    <item>
+      <title>Artikel in het magazine CXO juni - juli 2010</title>
+      <link>https://combinant.github.io/2010/artikel-in-het-magazine-cxo-juni---juli-2010/</link>
+      <pubDate>Wed, 16 Jun 2010 07:29:31 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/artikel-in-het-magazine-cxo-juni---juli-2010/</guid>
+      <description>Naar aanleiding van de persconferentie tijdens de opening is er een artikel verschenen in CXO juni - juli 2010.
+Artikel cxo juni - juli 2010    </description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Duisburg</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---duisburg/</link>
+      <pubDate>Mon, 17 May 2010 08:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---duisburg/</guid>
+      <description>Combinant start vanaf 25 mei 2010 een nieuw treintraject op van en naar Duisburg.
+Meer informatie in de brochure...
+ Combinant train Antwerpen - Duisburg</description>
+    </item>
+    
+    <item>
+      <title>Openingsreceptie Combinant</title>
+      <link>https://combinant.github.io/2010/openingsreceptie-combinant/</link>
+      <pubDate>Thu, 29 Apr 2010 17:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/openingsreceptie-combinant/</guid>
+      <description>Een impressie van de openingsreceptie op 29 april 2010...
+  </description>
+    </item>
+    
+    <item>
+      <title>Combinant op ATV</title>
+      <link>https://combinant.github.io/2010/combinant-op-atv/</link>
+      <pubDate>Thu, 29 Apr 2010 16:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/combinant-op-atv/</guid>
+      <description>&#34;Vlakbij BASF in de Antwerpse haven is vandaag de nieuwe weg-spoor terminal &#39;Combinant&#39; officieel geopend. Het is een nieuwe terminal in het noorden van Antwerpen die ervoor moet zorgen dat er in de toekomst minder containers over de weg moeten getransporteerd worden.&#34;
+  Bron: http://www.atv.be/item/combinant</description>
+    </item>
+    
+    <item>
+      <title>Combinant op VTM Nieuws</title>
+      <link>https://combinant.github.io/2010/combinant-op-vtm-nieuws/</link>
+      <pubDate>Thu, 29 Apr 2010 15:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/combinant-op-vtm-nieuws/</guid>
+      <description>&#34;In de haven van Antwerpen is een nieuwe spoorterminal voorgesteld. Die laadt containers op een trein en houdt dus de vrachtwagens van de weg. En de vraag naar zo&#39;n terminal is groot.&#34;
+  Bron: http://www.vtm.be/nieuws/binnenland/38460</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Busto</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---busto/</link>
+      <pubDate>Wed, 28 Apr 2010 09:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---busto/</guid>
+      <description>Combinant start vanaf 3 mei 2010 een nieuw treintraject op van en naar Busto.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Busto Arsizio</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Ludwigshafen</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---ludwigshafen/</link>
+      <pubDate>Wed, 28 Apr 2010 08:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---ludwigshafen/</guid>
+      <description>Combinant start vanaf 3 mei 2010 een nieuw treintraject op van en naar Ludwigshafen.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Ludwigshafen</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Buna</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---buna/</link>
+      <pubDate>Tue, 27 Apr 2010 08:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---buna/</guid>
+      <description>Combinant start vanaf 3 mei 2010 een nieuw treintraject op van en naar Buna.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Buna</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Verona</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---verona/</link>
+      <pubDate>Sat, 17 Apr 2010 08:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---verona/</guid>
+      <description>Combinant start vanaf 17 april 2010 een nieuw treintraject op van en naar Verona.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Verona</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Hendaye-Bordeaux</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---hendaye-bordeaux/</link>
+      <pubDate>Tue, 09 Mar 2010 09:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---hendaye-bordeaux/</guid>
+      <description>Combinant start vanaf 9 maart 2010 een nieuw treintraject op van en naar Hendaye-Bordeaux.
+Meer informatie in de brochure...
+  Combinant train Antwerp - Hendaye-Bordeaux</description>
+    </item>
+    
+    <item>
+      <title>Nieuw traintraject Antwerpen - Perpignan</title>
+      <link>https://combinant.github.io/2010/nieuw-traintraject-antwerpen---perpignan/</link>
+      <pubDate>Mon, 08 Mar 2010 09:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-traintraject-antwerpen---perpignan/</guid>
+      <description>Combinant start vanaf 8 maart 2010 een nieuw treintraject op van en naar Perpignan.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Perpignan</description>
+    </item>
+    
+    <item>
+      <title>Eerste trein Combinant op LoydTV</title>
+      <link>https://combinant.github.io/2010/eerste-trein-combinant-op-loydtv/</link>
+      <pubDate>Mon, 01 Mar 2010 16:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/eerste-trein-combinant-op-loydtv/</guid>
+      <description>Op 1 maart vertrok de eerste trein vanuit de nieuwe spoorterminal Combinant in de haven van Antwerpen. Lloyd TV volgde de hele operatie op de voet.
+  Bron: http://www.lloyd.be/nl/lloydtv/item.php?id=255</description>
+    </item>
+    
+    <item>
+      <title>Nieuw treintraject Antwerpen - Bettembourg - Le Boulou</title>
+      <link>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---bettembourg---le-boulou/</link>
+      <pubDate>Mon, 01 Mar 2010 09:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2010/nieuw-treintraject-antwerpen---bettembourg---le-boulou/</guid>
+      <description>Combinant start vanaf 1 maart 2010 een nieuw treintraject op van en naar Bettembourg en Le Boulou.
+Meer informatie in de brochure...
+ Combinant train Antwerp - Bettembourg - Le Boulou</description>
+    </item>
+    
+    <item>
+      <title>Assemblage eerste Combinant kraan</title>
+      <link>https://combinant.github.io/2009/assemblage-eerste-combinant-kraan/</link>
+      <pubDate>Tue, 01 Sep 2009 15:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2009/assemblage-eerste-combinant-kraan/</guid>
+      <description>Een historisch moment voor Combinant: de assemblage van de eerste kraan...
+  Bron: http://www.youtube.com/watch?v=jXAb1_aCmgA</description>
+    </item>
+    
+    <item>
+      <title>Combinant stelt zichzelf voor</title>
+      <link>https://combinant.github.io/2009/combinant-stelt-zichzelf-voor/</link>
+      <pubDate>Tue, 10 Mar 2009 16:00:00 +0000</pubDate>
+      
+      <guid>https://combinant.github.io/2009/combinant-stelt-zichzelf-voor/</guid>
+      <description>Op 10 maart 2009 stelde Combinant zichzelf voor met een persconferentie...
+ Persconferentie Combinant 20090310   </description>
     </item>
     
   </channel>
