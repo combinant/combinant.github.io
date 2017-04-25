@@ -48,13 +48,7 @@
     <![endif]-->
 </head>
 <body>
-<div id="layoutTop" class="mdl-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
-    <script>
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        if (!isChrome)
-            layoutTop.className += layoutTop.className ? ' mdl-js-layout' : 'mdl-js-layout';
-    </script>
-
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--no-desktop-drawer-button">
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <span class="mdl-layout-title logo"><span class="combinant-icons-logo"></span></span>
@@ -91,8 +85,18 @@
         <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     <div class="mdl-cell mdl-cell--8-col-desktop mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-        <a class="twitter-timeline" href="https://twitter.com/Combinant">Tweets door Combinant</a>
+        <div id="twitter-timeline">Tweets door Combinant</div>
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script>
+            document.addEventListener('mdl-componentupgraded', function (e) {
+                if (typeof e.target.MaterialLayout !== 'undefined') {
+                    twttr.widgets.createTimeline({
+                        sourceType: 'url',
+                        url: 'https://twitter.com/combinant'
+                    }, document.getElementById('twitter-timeline'), { related: 'twitterdev,twitterapi', width: '100%', chrome: 'noborders' });
+                }
+            });
+        </script>
     </div>
     <div class="mdl-cell mdl-cell--2-col-desktop mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
 </div>
