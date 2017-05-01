@@ -117,7 +117,16 @@
     background-size: 2132px 250px;
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .cetispic {
+        background-image: url('/assets/combinant-cetis.jpg');
+        height: 250px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 1217px 250px;
+        width: 100%;
+    }
+
+    @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .homepic {
         background-image: url('/assets/combinant-home@2x.jpg');
     }
