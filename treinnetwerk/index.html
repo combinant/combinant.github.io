@@ -82,10 +82,284 @@
 <div class="mdl-grid" style="position: relative">
     <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
     <div class="mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
-        <p><iframe src="http://www.combinant.be/CombinantMapEmbed.html" style="width: 100%; height: 720px" scrolling="auto" frameborder="0"></iframe></p>
-<p>De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. "Combinant" staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom "Operator".</p>
+        <div id="map" style="width: 100%; height: 720px;"></div>
+        <p>De informatie die via deze pagina wordt aangeboden, kan onvolkomenheden van allerlei aard bevatten. "Combinant" staat niet in voor de geschiktheid, betrouwbaarheid, tijdigheid of nauwkeurigheid van de informatie. De informatie wordt geleverd en weergegeven zonder enige vorm van garantie. U dient steeds de operator ter zake te raadplegen. De website van de operator vindt u in de kolom "Operator".</p>
     </div>
 </div>
+<script>
+    var mapUrl = "http://combinant-trainnetwork-api.devgem.be/api/Map";
+
+    var redIcon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+    var purpleIcon = 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png';
+    var blueIcon = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
+
+    var map;
+    var routes;
+    var operators;
+
+    var combinantPosition = { lat: 51.37123953903346, lng: 4.288451224565506 };
+    var markers = [];
+
+    var currentInfoWindow = null;
+
+    
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: combinantPosition
+        });
+        setTimeout(loadTrainnetwork, 0);
+    }
+
+    
+    function loadTrainnetwork() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(this.responseText);
+                routes = data.routes;
+                operators = data.operators;
+                setTimeout(showTrainnetwork, 0);
+            }
+        };
+        xhttp.open("GET", mapUrl, true);
+        xhttp.send();
+    }
+
+    
+    function showTrainnetwork() {
+        var combinantMarker = new google.maps.Marker({
+            position: combinantPosition,
+            map: map,
+            icon: redIcon
+        });
+        combinantMarker.addListener('click', _ => {
+            if (currentInfoWindow !== null) {
+                currentInfoWindow.close();
+            }
+            var infowindow = new google.maps.InfoWindow({
+                content: '<b>Combinant</b>'
+            });
+            infowindow.open(map, combinantMarker);
+            currentInfoWindow = infowindow;
+        })
+
+        var markers = [];
+        markers.push(combinantMarker);
+
+        var bounds = {
+            north: combinantPosition.lat,
+            east: combinantPosition.lng,
+            south: combinantPosition.lat,
+            west: combinantPosition.lng
+        };
+
+        var lines = [];
+        routes.forEach(function (route) {
+            var marker = new google.maps.Marker({
+                position: {
+                    lat: route.terminal.coordinates.latitude,
+                    lng: route.terminal.coordinates.longitude
+                },
+                map: map,
+                icon: getIcon(route)
+            });
+            marker.addListener('click', _ => {
+                if (currentInfoWindow !== null) {
+                    currentInfoWindow.close();
+                }
+                var infowindow = new google.maps.InfoWindow({
+                    content: getInfoWindowContent(route)
+                });
+                infowindow.open(map, marker);
+                currentInfoWindow = infowindow;
+            })
+            markers.push(marker);
+            if (route.terminal.coordinates.latitude < bounds.north) {
+                bounds.north = route.terminal.coordinates.latitude;
+            }
+            if (route.terminal.coordinates.latitude > bounds.south) {
+                bounds.south = route.terminal.coordinates.latitude;
+            }
+            if (route.terminal.coordinates.longitude < bounds.west) {
+                bounds.west = route.terminal.coordinates.longitude;
+            }
+            if (route.terminal.coordinates.longitude > bounds.east) {
+                bounds.east = route.terminal.coordinates.longitude;
+            }
+            pushLines(lines, route);
+        },
+            this);
+
+        drawLines(lines);
+        map.fitBounds(bounds);
+    }
+
+    function getInfoWindowContent(route) {
+        var content = `<b>${route.terminal.name}</b><br/>`;
+        route.timings.forEach(timing => {
+            content += "<div><hr/>";
+
+            
+            content += "<span>Operator ";
+            if (hasOperatorUrl(timing)) {
+                content += `<a target="_blank" href="${getOperatorUrl(timing)}">`;
+            }
+            content += `<b>${getOperatorName(timing)}</b>`;
+            if (hasOperatorUrl(timing)) {
+                content += "</a>";
+            }
+            content += "</span>";
+
+            //timingdata to
+            if (hasTimingData(timing.timingDataTo)) {
+                content += "<pre>"
+                content += getFormattedTimingData("<b>from</b> Combinant <b>to</b> " + route.terminal.name + ':', timing.timingDataTo, 'departure')
+                content += "</pre>"
+            }
+
+            
+            if (hasTimingData(timing.timingDataFrom)) {
+                content += "<pre>"
+                content += getFormattedTimingData("<b>from</b> " + route.terminal.name + " <b>to</b> Combinant:", timing.timingDataFrom, '  arrival')
+                content += "</pre>"
+            }
+
+            content += "</div>";
+        });
+        return content;
+    }
+
+    
+    function getIcon(route) {
+        return route.isDirectRoute ? blueIcon : purpleIcon;
+    }
+
+    
+    function drawLines(lines) {
+        lines.forEach(line => line.setMap(map));
+    }
+
+    
+    function pushLines(lines, route) {
+        if (route.isDirectRoute) {
+            lines.push(
+                new google.maps.Polyline({
+                    path: [
+                        combinantPosition,
+                        {
+                            lat: route.terminal.coordinates.latitude,
+                            lng: route.terminal.coordinates.longitude
+                        }
+                    ],
+                    geodesic: false,
+                    strokeColor: "#FF0000",
+                    strokeOpacity: 1.0,
+                    strokeWeight: 1.5
+                })
+            );
+        }
+        if (route.viaIds !== null && route.viaIds.length > 0) {
+            var toCoordinates = route.terminal.coordinates;
+            route.viaIds.forEach(viaId => {
+                var fromCoordinates = routes.find(r => r.id === viaId).terminal.coordinates;
+                lines.push(
+                    new google.maps.Polyline({
+                        path: [
+                            {
+                                lat: fromCoordinates.latitude,
+                                lng: fromCoordinates.longitude
+                            },
+                            {
+                                lat: toCoordinates.latitude,
+                                lng: toCoordinates.longitude
+                            }
+                        ],
+                        geodesic: false,
+                        strokeColor: "#0000FF",
+                        strokeOpacity: 1.0,
+                        strokeWeight: 1.5
+                    })
+                );
+            });
+        }
+    }
+
+    
+    function getOperator(operatorId) {
+        var operator = operators.find(o => o.id === operatorId);
+        if (operator) {
+            return operator;
+        } else {
+            return null;
+        }
+    }
+
+    
+    function hasOperatorUrl(timing) {
+        return getOperatorUrl(timing) !== null;
+    }
+
+    
+    function getOperatorUrl(timing) {
+        var operator = getOperator(timing.operatorId);
+        if (operator) {
+            var url = operator.url;
+            if (url && url.trim() !== '') {
+                return url;
+            } else {
+                return null;
+            }
+        } else {
+            return null;
+        }
+    }
+
+    
+    function getOperatorName(timing) {
+        const operator = getOperator(timing.operatorId);
+        if (operator) {
+            return operator.name;
+        } else {
+            return null;
+        }
+    }
+
+    function hasTimingData(timingData) {
+        if ((timingData.departure === null || timingData.departure.trim() === '')
+            && (timingData.closing === null || timingData.closing.trim() === '')
+            && (timingData.pickup === null || timingData.pickup.trim() === '')
+            && (timingData.profile === null || timingData.profile.trim() === '')) {
+            return false;
+        }
+
+        return timingData !== null
+            && (timingData.departure !== null
+                || timingData.closing !== null
+                || timingData.pickup !== null
+                || timingData.profile !== null);
+    }
+
+    function getFormattedTimingData(prefix, timingData, daysWording) {
+        var formatted = `${prefix}\n`;
+        if (timingData.departure !== null && timingData.departure.trim() !== '') {
+            formatted += ` <b>${daysWording}</b> ${timingData.departure}\n`;
+        }
+        if (timingData.closing !== null && timingData.closing.trim() !== '') {
+            formatted += `   <b>closing</b> ${timingData.closing}\n`;
+        }
+        if (timingData.pickup !== null && timingData.pickup.trim() !== '') {
+            formatted += `    <b>pickup</b> ${timingData.pickup}\n`;
+        }
+        if (timingData.profile !== null && timingData.profile.trim() !== '') {
+            formatted += `   <b>profile</b> ${timingData.profile}`;
+        }
+        return formatted;
+    }
+
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI-TrT5xbpbakJqRM2i34WtNSq9RrTHFY&callback=initMap">
+
+</script>
 <footer id="layoutFooter" class="mdl-mini-footer" style="visibility: hidden;">
     <div class="mdl-mini-footer__left-section">
         <div class="mdl-logo mdl-layout--large-screen-only footer-logo"><span class="combinant-icons-logo"></span></div>
